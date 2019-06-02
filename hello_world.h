@@ -4,5 +4,5 @@
 class HelloWorld
 {
 public:
-	int hello_world();
+	void hello_world();
 };

@@ -8,7 +8,7 @@
 	type of value returns, int
 	name of function, main with parentheses
 	main is a special func in C++, it is called when the program is run */
-int HelloWorld::hello_world()
+void HelloWorld::hello_world()
 {
 	/* use the display screen as output, cout
 		qualified manner: cout is part of the standard library, hence its namespace is std::cout
