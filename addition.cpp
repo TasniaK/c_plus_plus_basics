@@ -10,12 +10,17 @@ using namespace std;
 
 int Addition::addition()
 {
+	// must declare variable types before use, so that compiler knows how much memory to allocate to it.
 	int a, b, c;
 
+	// get inputs, can ask for two inputs within one cin line, using the >> separator.
 	cout << "Enter two integers to add\n";
 	cin >> a >> b;
 
+	// run calculation
 	c = a + b;
+
+	// give back result
 	cout << "Sum of the numbers: " << c << endl;
 
 	return 0;
