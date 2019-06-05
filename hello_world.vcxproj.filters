@@ -24,12 +24,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="add_arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello_world.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="addition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="add_arrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
